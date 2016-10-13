@@ -37,7 +37,7 @@ public class TicketingServiceTest extends BaseModel {
 		service.setStore(mockStore);
 
 		// Verify
-		Assert.assertEquals("Mismatch in number of available seats", service.numSeatsAvailable());
+		Assert.assertEquals("Mismatch in number of available seats", 100, service.numSeatsAvailable());
 	}
 
 	/**
